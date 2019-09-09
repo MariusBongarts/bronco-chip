@@ -22,9 +22,6 @@ $ npm i https://github.com/marius2502/bronco-chip.git
 import '@marius/broncochip/dist/main';
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#bronco-chip)
-
 ## ➤ bronco-chip
 
 Modern chip
