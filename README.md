@@ -20,6 +20,7 @@ $ npm i https://github.com/marius2502/bronco-chip.git
 
 ```javascript
 import '@marius/broncochip/dist/main';
+```
 
 
 ## ➤ bronco-chip
