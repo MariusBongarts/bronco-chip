@@ -6,7 +6,7 @@
 .chip{
   display: inline-flex;
   flex-direction: row;
-  background-color: #e5e5e5;
+  background-color: var(--bg-color);
   border: none;
   cursor: default;
   height: var(--height);
@@ -33,7 +33,7 @@
   padding-right: 12px;
 }
 .chip-svg{
-      color: #999999;
+  color: #999999;
   cursor: pointer;
   height: auto;
   margin: 4px 4px 0 -8px;
@@ -48,6 +48,10 @@ fill: currentColor;
 }
 .chip-svg:hover{
   color: #666666;
+}
+
+.chip.delete-mode .chip-svg{
+  color: red;
 }
 
 /* Ripple effect */
